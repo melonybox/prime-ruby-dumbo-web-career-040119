@@ -1,14 +1,13 @@
 # Add  code here!
 def prime?(num)
-  if num <= 1
+  range = (2..(num-1)).to_a
+  if num < 2
     false
-  end
-  
-  counter = 2..num
-  for item in counter do
-    if num % item == 0
-      false
+  else
+    range.each do |x|
+      if num % == 0
+        false
+      end
     end
-  end
   true
 end
