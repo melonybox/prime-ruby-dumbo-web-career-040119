@@ -5,6 +5,8 @@ def prime?(num)
   elsif num == 2
     true
   else
-    
+    counter = 2
+    loop do
+      if counter < num
     
 end
