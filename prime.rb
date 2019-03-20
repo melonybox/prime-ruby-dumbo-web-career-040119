@@ -2,6 +2,7 @@
 def prime?(num)
   if num == 0 || num == 1
     false
+  end
     
   counter = 2
   while counter < num
