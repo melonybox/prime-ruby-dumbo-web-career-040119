@@ -6,6 +6,9 @@ def prime?(num)
   
   counter = 2..num
   for item in counter do
-    if 
+    if num % counter == 0
+      false
+    end
   end
+  true
 end
