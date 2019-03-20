@@ -13,5 +13,5 @@ def prime?(num)
         counter +=1
     end
   true
-    
+  end  
 end
