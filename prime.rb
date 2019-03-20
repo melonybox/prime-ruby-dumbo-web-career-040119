@@ -6,7 +6,10 @@ def prime?(num)
     true
   else
     counter = 2
-    loop do
-      if counter < num
+    while counter < num
+      if num % counter == 0
+        false
+    end
+  true 
     
 end
