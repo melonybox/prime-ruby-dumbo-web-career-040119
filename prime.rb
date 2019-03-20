@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(num)
-  case 
-  when num == 1
+  if num == 1
     false
-  when num == 2
+  elsif num == 2
     true
-  when 
+  else
+    
     
 end
