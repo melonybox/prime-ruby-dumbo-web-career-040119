@@ -4,5 +4,6 @@ def prime?(num)
     false
   end
   
+  counter = 2..num
   
 end
