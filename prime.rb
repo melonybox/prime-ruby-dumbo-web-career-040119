@@ -4,7 +4,7 @@ def prime?(num)
     false
   end
   
-  counter = 2..num - 1
+  counter = 2..num
   for item in counter do
     if num % item == 0
       false
