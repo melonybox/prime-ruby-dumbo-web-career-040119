@@ -5,5 +5,7 @@ def prime?(num)
   end
   
   counter = 2..num
-  
+  for item in counter do
+    
+  end
 end
