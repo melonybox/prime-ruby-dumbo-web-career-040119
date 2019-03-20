@@ -1,4 +1,6 @@
 # Add  code here!
 def prime?(num)
-  if 
+  case num
+  when 
+    
 end
