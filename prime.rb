@@ -9,8 +9,9 @@ def prime?(num)
     while counter < num
       if num % counter == 0
         false
+      else
+        counter +=1
     end
   true
-end
     
 end
